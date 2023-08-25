@@ -1,17 +1,17 @@
 # bioconverter
 
 ```
-python converter braf 'homo sapiens'
+python converter.py braf 'homo sapiens'
 
 ```
 ```
-python converter braf
+python converter.py braf
 
 ```
 ```
-python converter 122438725
+python converter.py 122438725
 
 ```
 ```
-python converter rs5030858
+python converter.py rs5030858
 ```
