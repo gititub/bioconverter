@@ -1,0 +1,32 @@
+<form action="/" method="post"></form>
+<html>
+  <head>
+    <title>Biomedical Named Entity Recognition</title>
+<link rel="stylesheet" href="css.css">
+
+  </head>
+<body>
+  <h1>NER tool</h1>
+  <p>
+    <b>1.Select input:</b>
+      <select name=input> 
+        <option value=1>pmid</option> 
+        <option value=2>PMC</option> 
+        <option value=3>Plain text</option> 
+      </select>
+      <br><br>
+      <b>2.Select output:</b>
+      <select name=output> 
+        <option value=1>biocjson</option> 
+        <option value=2>dataframe</option>
+      </select>
+      <br><br>
+      <b>3.Write plain text or ids (comma separated):</b>
+      <br/>
+      <input type=text name=text>
+      <br/><br/>
+      <input type=submit name=submit value=Submit>
+  </p>
+</body>
+</html>
+</form>
