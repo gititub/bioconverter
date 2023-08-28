@@ -10,3 +10,4 @@ tqdm
 biopython
 Bio
 argparse
+Flask
